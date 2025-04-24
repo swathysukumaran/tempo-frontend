@@ -1,4 +1,3 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
 import registerImage from "../../assets/register.jpeg";
 import logo from "../../assets/logo.png";
