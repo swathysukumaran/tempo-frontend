@@ -1,5 +1,5 @@
 import { API_URL } from "@/config/api";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
 import default_activity from "../../assets/default_activity.jpg";
 import default_hotel from "../../assets/default_hotel.jpg";

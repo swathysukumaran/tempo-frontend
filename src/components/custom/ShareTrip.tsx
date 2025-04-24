@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Share2 } from "lucide-react";
 import { Button } from "../ui/button"; // adjust path if needed
 import { API_URL } from "@/config/api";
