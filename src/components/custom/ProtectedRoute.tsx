@@ -1,3 +1,4 @@
+import { API_URL } from "@/config/api";
 import { useEffect, useState } from "react";
 import { Navigate, useLocation } from "react-router-dom";
 
@@ -7,7 +8,7 @@ function ProtectedRoute({ children }: { children: JSX.Element }) {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        const res = await fetch("http://localhost:8081/me", {
+        const res = await fetch(`${API_URL}/me`, {
           credentials: "include",
         });
         setIsAuthenticated(res.ok);
