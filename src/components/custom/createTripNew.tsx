@@ -369,7 +369,7 @@ function CreateTripNew() {
                       if (isRecording) {
                         stopRecording();
                       } else {
-                        startRecording("timeframe");
+                        startRecording("preferences");
                       }
                     }}
                     className=" p-1 h-fit rounded-full bg-primary text-white transition-transform transform hover:scale-105"
@@ -453,7 +453,7 @@ function CreateTripNew() {
                       if (isRecording) {
                         stopRecording();
                       } else {
-                        startRecording("timeframe");
+                        startRecording("budget");
                       }
                     }}
                     className=" p-1 h-fit rounded-full bg-primary text-white transition-transform transform hover:scale-105"
@@ -545,7 +545,7 @@ function CreateTripNew() {
                           if (isRecording) {
                             stopRecording();
                           } else {
-                            startRecording("timeframe");
+                            startRecording("travelers");
                           }
                         }}
                         className=" p-1 h-fit rounded-full bg-primary text-white transition-transform transform hover:scale-105"
