@@ -15,6 +15,7 @@ function Header() {
         method: "POST",
         credentials: "include",
       });
+      sessionStorage.removeItem("TEMPO-AUTH");
       return response.ok;
     } catch (error) {
       console.error("Logout error:", error);
@@ -25,6 +26,7 @@ function Header() {
   const handleLogout = async () => {
     try {
       await logout();
+
       navigate("/");
     } catch (error) {
       console.error("Logout failed:", error);
