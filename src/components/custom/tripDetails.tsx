@@ -581,7 +581,7 @@ function TripDetails() {
 
       {/* Hotels Section */}
       <section className="max-w-4xl mx-auto px-6 mt-8">
-        <div className="flex border-b border-gray-200 mb-6">
+        <div className="flex border-b gap-1 border-gray-200 mb-6">
           <button
             onClick={() => setActiveTab("itinerary")}
             className={`px-4 py-2 text-sm font-medium transition-colors ${
@@ -597,7 +597,7 @@ function TripDetails() {
             onClick={() => setActiveTab("hotels")}
             className={`px-4 py-2 text-sm font-medium transition-colors ${
               activeTab === "hotels"
-                ? "text-primary border-b-2 border-primary"
+                ? "text-primary border-b-2 border-primary bg-white"
                 : "text-gray-500 hover:text-gray-700  bg-white"
             }`}
           >
