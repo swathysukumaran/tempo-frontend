@@ -586,8 +586,8 @@ function TripDetails() {
             onClick={() => setActiveTab("itinerary")}
             className={`px-4 py-2 text-sm font-medium transition-colors ${
               activeTab === "itinerary"
-                ? "text-primary border-b-2 border-primary"
-                : "text-gray-500 hover:text-gray-700"
+                ? "text-primary border-b-2 border-primary bg-white"
+                : "text-gray-500 hover:text-gray-700 bg-white"
             }`}
           >
             <Compass className="inline-block mr-2 -mt-1" size={20} />

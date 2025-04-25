@@ -808,7 +808,7 @@ function CreateTripNew() {
           variant="outline"
           onClick={goToPreviousStep}
           disabled={currentStepIndex === 0}
-          className="text-gray-800 w-max hover:bg-gray-100 disabled:opacity-50"
+          className="text-gray-800 w-max bg-white hover:bg-gray-100 disabled:opacity-50"
         >
           <ChevronLeft className="mr-2 h-4 w-4" />
           Back

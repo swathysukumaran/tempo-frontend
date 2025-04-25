@@ -98,7 +98,7 @@ function LandingPage() {
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
                 {isMenuOpen ? (
-                  <X className="h-6 w-6" />
+                  <X className="h-6 w-6 text-gray-950" />
                 ) : (
                   <Menu className="h-6 w-6" />
                 )}

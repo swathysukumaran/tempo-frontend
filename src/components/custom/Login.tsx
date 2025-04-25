@@ -76,7 +76,9 @@ function Login() {
             </Alert>
           )}
           <div className="space-y-2">
-            <Label htmlFor="email">Email</Label>
+            <Label htmlFor="email" className="text-gray-950">
+              Email
+            </Label>
             <Input
               id="email"
               type="email"
@@ -89,7 +91,9 @@ function Login() {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="password">Password</Label>
+            <Label htmlFor="password" className="text-gray-950">
+              Password
+            </Label>
             <Input
               id="password"
               type="password"

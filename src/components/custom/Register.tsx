@@ -64,7 +64,9 @@ function Register({ onLoginClick }: RegisterProps) {
             </Alert>
           )}
           <div className="space-y-2">
-            <Label htmlFor="username">Username</Label>
+            <Label htmlFor="username" className="text-gray-950">
+              Username
+            </Label>
             <Input
               id="username"
               type="text"
@@ -77,7 +79,9 @@ function Register({ onLoginClick }: RegisterProps) {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="email">Email</Label>
+            <Label htmlFor="email" className="text-gray-950">
+              Email
+            </Label>
             <Input
               id="email"
               type="email"
@@ -90,7 +94,9 @@ function Register({ onLoginClick }: RegisterProps) {
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="password">Password</Label>
+            <Label htmlFor="password" className="text-gray-950">
+              Password
+            </Label>
             <Input
               id="password"
               type="password"
@@ -119,7 +125,7 @@ function Register({ onLoginClick }: RegisterProps) {
                   onLoginClick();
                 }
               }}
-              className="p-0 text-primary hover:text-primary-dark"
+              className="p-0 text-primary hover:text-primary-dark bg-white"
             >
               Login
             </Button>
