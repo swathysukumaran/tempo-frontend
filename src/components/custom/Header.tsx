@@ -48,7 +48,7 @@ function Header() {
           </Button>
         </div>
         <div
-          className={`absolute md:relative top-full right-0 w-full bg-white z-100 p-4 ${
+          className={`absolute md:relative top-full right-0 w-full bg-white z-50 p-4 ${
             isMenuOpen
               ? "flex flex-col w-max items-end gap-4"
               : "hidden md:flex md:flex-row gap-4 md:items-center"
