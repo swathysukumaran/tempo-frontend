@@ -653,7 +653,7 @@ function TripDetails() {
                                 )}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="hover:border-primary transition duration-200 text-primary"
+                                className="hover:text-gray-700 transition duration-200 text-primary"
                               >
                                 {activity.place_name}
                               </a>
@@ -713,7 +713,7 @@ function TripDetails() {
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:border-primary transition duration-200 text-primary"
+                  className="hover:text-gray-700 transition duration-200 text-primary"
                 >
                   <div
                     key={index}
